@@ -1,0 +1,57 @@
+.profile-manager {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .profile-form {
+    width: 40%;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-list {
+    width: 40%;
+  }
+  
+  .profile-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-list li {
+    margin-bottom: 10px;
+    cursor: pointer; /* Ajout du curseur pointer pour indiquer que les éléments de la liste sont cliquables */
+  }
+  
+  .profile-list button {
+    margin-left: 10px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup p {
+    margin: 5px 0;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
+  
